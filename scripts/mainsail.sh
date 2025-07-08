@@ -341,7 +341,7 @@ function get_remote_mainsail_version() {
   [[ ! $(dpkg-query -f'${Status}' --show curl 2>/dev/null) = *\ installed ]] && return
 
   local tags
-  tags=$(curl -s "https://api.github.com/repos/mainsail-crew/mainsail/tags" | grep "name" | cut -d'"' -f4)
+  tags=$(curl -s "https://api.github.com/repos/sunghee-sketch/virtual-klipper/tags" | grep "name" | cut -d'"' -f4)
   echo "${tags}" | head -1
 }
 
