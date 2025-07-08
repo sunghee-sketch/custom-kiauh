@@ -44,7 +44,7 @@ class MainsailData(BaseWebClient):
     client_dir: Path = Path.home().joinpath("mainsail")
     config_file: Path = client_dir.joinpath("config.json")
     backup_dir: Path = BACKUP_ROOT_DIR.joinpath("mainsail-backups")
-    repo_path: str = "mainsail-crew/mainsail"
+    repo_path: str = "sunghee-sketch/virtual-klipper"
     nginx_config: Path = NGINX_SITES_AVAILABLE.joinpath("mainsail")
     nginx_access_log: Path = Path("/var/log/nginx/mainsail-access.log")
     nginx_error_log: Path = Path("/var/log/nginx/mainsail-error.log")
