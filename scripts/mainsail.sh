@@ -536,16 +536,16 @@ function get_mainsail_download_url() {
   local releases_by_tag tags tag unstable_url url
 
   ### latest stable download url
-  url="https://github.com/mainsail-crew/mainsail/releases/latest/download/mainsail.zip"
+  url="https://github.com/sunghee-sketch/virtual-klipper/releases/latest/download/mainsail.zip"
 
   read_kiauh_ini "${FUNCNAME[0]}"
   if [[ ${mainsail_install_unstable} == "true" ]]; then
-    releases_by_tag="https://api.github.com/repos/mainsail-crew/mainsail/tags"
+    releases_by_tag="https://api.github.com/repos/sunghee-sketch/virtual-klipper/tags"
     tags=$(curl -s "${releases_by_tag}" | grep "name" | cut -d'"' -f4)
     tag=$(echo "${tags}" | head -1)
 
     ### latest unstable download url including pre-releases (alpha, beta, rc)
-    unstable_url="https://github.com/mainsail-crew/mainsail/releases/download/${tag}/mainsail.zip"
+    unstable_url="https://github.com/sunghee-sketch/virtual-klipper/releases/download/${tag}/mainsail.zip"
 
     if [[ ${unstable_url} == *"download//"* ]]; then
       warn_msg "Download URL broken! Falling back to URL of latest stable release!"
