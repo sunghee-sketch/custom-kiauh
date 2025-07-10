@@ -642,7 +642,7 @@ function patch_mainsail_update_manager() {
 [update_manager mainsail]
 type: web
 channel: stable
-repo: mainsail-crew/mainsail
+repo: sunghee-sketch/virtual-klipper
 path: ~/mainsail
 MOONRAKER_CONF
 
