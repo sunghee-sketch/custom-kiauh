@@ -83,7 +83,7 @@ cd ~ && git clone https://github.com/sunghee-sketch/custom-kiauh.git
     Finally, start KIAUH by running the next command:
 
 ```shell
-./kiauh/kiauh.sh
+./custom-kiauh/kiauh.sh
 ```
 
 -   **Step 4:** \
