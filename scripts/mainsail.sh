@@ -187,8 +187,8 @@ function download_mainsail() {
     ok_msg "Download complete!"
     status_msg "Extracting archive ..."
     unzip -q -o ./*.zip && ok_msg "Done!"
-    sudo chown -R pi:pi "${MAINSAIL_DIR}" #소유자 바꿔주는 명령어
-    sudo chmod -R u+rwx,go+rx,go-w "${MAINSAIL_DIR}"  #권한을 바꾸는 명령어
+    sudo chmod -R u+rwx,go+rx,go-w /home/pi/mainsail #소유자 바꿔주는 명령어
+    sudo chown -R pi:pi /home/pi/mainsail  #권한을 바꾸는 명령어
     status_msg "Remove downloaded archive ..."
     rm -rf ./*.zip && ok_msg "Done!"
   else
