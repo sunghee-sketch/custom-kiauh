@@ -24,7 +24,7 @@ function install_ui() {
   echo -e "|  2) [Moonraker]          |  8) [Telegram Bot]         |"
   echo -e "|                          |  9) $(obico_install_title) |"
   echo -e "| Klipper Webinterface:    | 10) [OctoEverywhere]       |"
-  echo -e "|  3) [Mainsail]           | 11) [Mobileraker]          |"
+  echo -e "|  3) [ALHS-Web]           | 11) [Mobileraker]          |"
   echo -e "|  4) [Fluidd]             | 12) [OctoApp for Klipper]  |"
   echo -e "|                          | 13) [Spoolman]             |"
   echo -e "| Touchscreen GUI:         |                            |"

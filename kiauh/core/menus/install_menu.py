@@ -65,7 +65,7 @@ class InstallMenu(BaseMenu):
             ║  2) [Moonraker]           │                           ║
             ║                           │ Webcam Streamer:          ║
             ║ Webinterface:             │  8) [Crowsnest]           ║
-            ║  3) [ALHS]                │                           ║
+            ║  3) [ALHS-Web]            │                           ║
             ║  4) [Fluidd]              │                           ║
             ║                           │                           ║
             ║ Client-Config:            │                           ║
