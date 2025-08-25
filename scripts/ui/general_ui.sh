@@ -48,9 +48,9 @@ function back_help_footer() {
 
 function print_header() {
   top_border
-  echo -e "|     $(title_msg "~~~~~~~~~~~~~~~~~~~ [ ALHS ] ~~~~~~~~~~~~~~~~~~")     |"
-  echo -e "|     $(title_msg "   ALHS SystemInstallation And Update Helper   ")     |"
-  echo -e "|     $(title_msg "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")     |"
+  echo -e "|     $(title_msg "~~~~~~~~~~~~~~~~~~ [ ALHS ] ~~~~~~~~~~~~~~~~~")     |"
+  echo -e "|     $(title_msg "    System Installation And Update Helper    ")     |"
+  echo -e "|     $(title_msg "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")     |"
   bottom_border
 }
 
