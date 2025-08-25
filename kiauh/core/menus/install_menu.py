@@ -65,11 +65,11 @@ class InstallMenu(BaseMenu):
             ║  2) [Moonraker]           │                           ║
             ║                           │ Webcam Streamer:          ║
             ║ Webinterface:             │  8) [Crowsnest]           ║
-            ║  3) [Mainsail]            │                           ║
+            ║  3) [ALHS]                │                           ║
             ║  4) [Fluidd]              │                           ║
             ║                           │                           ║
             ║ Client-Config:            │                           ║
-            ║  5) [Mainsail-Config]     │                           ║
+            ║  5) [ALHS-Config]         │                           ║
             ║  6) [Fluidd-Config]       │                           ║
             ╟───────────────────────────┴───────────────────────────╢
             """

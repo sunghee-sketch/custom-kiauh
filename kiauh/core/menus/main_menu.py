@@ -137,7 +137,7 @@ class MainMenu(BaseMenu):
             ║  4) [Advanced]   │     Owner: {self.mr_owner:<{pad1}} ║
             ║  5) [Backup]     │      Repo: {self.mr_repo:<{pad1}} ║
             ║                  ├────────────────────────────────────╢
-            ║  S) [Settings]   │        Mainsail: {self.ms_status:<{pad2}} ║
+            ║  S) [Settings]   │            ALHS: {self.ms_status:<{pad2}} ║
             ║                  │          Fluidd: {self.fl_status:<{pad2}} ║
             ║ Community:       │   Client-Config: {self.cc_status:<{pad2}} ║
             ║  E) [Extensions] │                                    ║
